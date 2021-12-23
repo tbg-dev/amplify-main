@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-teeboxgolf-dev-124634-authRole",
+      "UnauthRoleArn": "arn:aws:iam::252511950809:role/amplify-teeboxgolf-dev-124634-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::252511950809:role/amplify-teeboxgolf-dev-124634-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-teeboxgolf-dev-124634-deployment",
+      "UnauthRoleName": "amplify-teeboxgolf-dev-124634-unauthRole",
+      "StackName": "amplify-teeboxgolf-dev-124634",
+      "StackId": "arn:aws:cloudformation:us-west-2:252511950809:stack/amplify-teeboxgolf-dev-124634/6c7a9230-6431-11ec-87c5-0a739bc2b5d7",
+      "AmplifyAppId": "d27c9k5nhj1wze"
+    }
+  }
+}
