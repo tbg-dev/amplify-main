@@ -22,5 +22,29 @@
         }
       }
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-teeboxgolf-prod-100017-authRole",
+      "UnauthRoleArn": "arn:aws:iam::252511950809:role/amplify-teeboxgolf-prod-100017-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::252511950809:role/amplify-teeboxgolf-prod-100017-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-teeboxgolf-prod-100017-deployment",
+      "UnauthRoleName": "amplify-teeboxgolf-prod-100017-unauthRole",
+      "StackName": "amplify-teeboxgolf-prod-100017",
+      "StackId": "arn:aws:cloudformation:us-west-2:252511950809:stack/amplify-teeboxgolf-prod-100017/5ace8340-64e3-11ec-b3b2-0adf1a1eac97",
+      "AmplifyAppId": "d27c9k5nhj1wze"
+    },
+    "categories": {
+      "function": {
+        "AdminQueries59349df8": {
+          "deploymentBucketName": "amplify-teeboxgolf-prod-100017-deployment",
+          "s3Key": "amplify-builds/AdminQueries59349df8-7376536e5935326c6261-build.zip"
+        }
+      },
+      "auth": {
+        "teeboxgolf916bb152": {}
+      }
+    }
   }
 }
