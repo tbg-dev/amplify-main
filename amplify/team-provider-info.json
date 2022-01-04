@@ -10,6 +10,17 @@
       "StackName": "amplify-teeboxgolf-dev-124634",
       "StackId": "arn:aws:cloudformation:us-west-2:252511950809:stack/amplify-teeboxgolf-dev-124634/6c7a9230-6431-11ec-87c5-0a739bc2b5d7",
       "AmplifyAppId": "d27c9k5nhj1wze"
+    },
+    "categories": {
+      "auth": {
+        "teeboxgolf916bb152": {}
+      },
+      "function": {
+        "AdminQueries59349df8": {
+          "deploymentBucketName": "amplify-teeboxgolf-dev-124634-deployment",
+          "s3Key": "amplify-builds/AdminQueries59349df8-7376536e5935326c6261-build.zip"
+        }
+      }
     }
   }
 }
