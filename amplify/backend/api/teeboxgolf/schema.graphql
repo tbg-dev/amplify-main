@@ -1,0 +1,58 @@
+enum SwingHanded {
+  LEFT
+  RIGHT
+}
+
+""" A user profile """
+type User @model
+  @auth(rules: [
+    { allow: owner },
+    { allow: groups, groups: ["Admin"] }
+  ])
+{
+  id: ID!
+  handed: SwingHanded
+}
+
+enum ResourceType {
+  IMAGE
+  VIDEO
+  JSON
+}
+
+enum ResourceAuthorType {
+  APP
+}
+
+""" A generic Resource object """
+type Resource @model
+  @auth(rules: [
+    { allow: owner },
+    { allow: groups, groups: ["Admin"] }
+  ])
+  @key(name: "byParent", fields: ["parentID", "groupID"])
+{
+  id: ID!
+  type: ResourceType!
+  name: String!
+  version: String!
+  parentID: ID!
+  groupID: ID!
+  authorId: ID!
+  authorType: ResourceAuthorType!
+  data: String
+  contentType: String
+  storageKey: String
+  fileExt: String
+}
+
+""" All resources and components related to a Swing """
+type Swing @model
+@auth(rules: [
+  { allow: owner },
+  { allow: groups, groups: ["Admin"] }
+]) {
+
+  id: ID!
+  resources: [Resource] @connection(keyName: "byParent", fields: ["id"])
+}

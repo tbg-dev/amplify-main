@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "teeboxgolf",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authteeboxgolf916bb152",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
