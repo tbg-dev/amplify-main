@@ -58,7 +58,7 @@
             "ENV": {
               "Ref": "env"
             },
-            "GROUP": "admin",
+            "GROUP": "admins",
             "USERPOOL": {
               "Ref": "authteeboxgolf916bb152UserPoolId"
             }
