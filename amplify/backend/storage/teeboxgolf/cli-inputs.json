@@ -1,0 +1,14 @@
+{
+  "resourceName": "teeboxgolf",
+  "policyUUID": "bf73331c",
+  "bucketName": "teeboxgolf",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

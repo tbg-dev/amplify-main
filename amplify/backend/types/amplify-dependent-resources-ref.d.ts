@@ -21,14 +21,20 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "api": {
+        "teeboxgolf": {
+            "GraphQLAPIIdOutput": "string",
+            "GraphQLAPIEndpointOutput": "string"
+        },
         "AdminQueries": {
             "RootUrl": "string",
             "ApiName": "string",
             "ApiId": "string"
-        },
+        }
+    },
+    "storage": {
         "teeboxgolf": {
-            "GraphQLAPIIdOutput": "string",
-            "GraphQLAPIEndpointOutput": "string"
+            "BucketName": "string",
+            "Region": "string"
         }
     }
 }
